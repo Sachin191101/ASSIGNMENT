@@ -1,0 +1,448 @@
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+
+nav {
+  border-bottom: 2px black solid;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+nav ul li img {
+  height: 20px;
+  width: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+nav .left, nav .right {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+li.search-box {
+  border-bottom: 2px solid black;
+  /* margin-bottom: -2px; */
+  padding: 0;
+  padding-top: 10px;
+}
+
+li.search-box input {
+  outline: none;
+  border: none;
+}
+
+
+
+
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: left;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.success-message {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.message {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: black;
+    color: #fff;
+    padding: 5px 12px;
+    text-decoration: none;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+  font-size: 12px;
+  width: fit-content;
+  margin-top: auto;
+}
+
+.cta-button2 {
+  background-color: white;
+  color: #000;
+}
+
+.cta-button:hover {
+  background-color: #45a049;
+}
+
+.customize-notification {
+  background-color: rgb(247, 236, 217);
+}
+
+.section-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.section-description {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+
+.cards-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
+}
+
+.cards-container>div {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card3-buttons {
+  display: flex;
+  margin-top: auto;
+}
+
+.tracking-link {
+  width: 60%;
+}
+
+.tracking-link {
+  background-color: rgb(210, 232, 241);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.metrics-container {
+  width: 95vw;
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: rgb(237, 230, 216);
+}
+
+.metric-group {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+}
+
+.metric {
+  padding: 5px 15px;
+  border-radius: 4px;
+  background-color: #fff;
+  color: black;
+  font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.data-container {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+  text-align: left;
+  /* padding: 10px; */
+}
+
+.first, .second, .third {
+  background-color: rgb(174, 163, 11);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.first {
+  display: block;
+  width: 40%;
+  background-color: white;
+}
+
+.first span {
+  padding: 3px 5px;
+  border: 1px solid black;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.first img {
+  height: 85%;
+  width: 100%;
+}
+
+.second {
+  width: 16%;
+}
+
+.second button {
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 5px;
+}
+
+
+.third {
+  background-color: white;
+  width: 32%;
+}
+
+.third>.third-card {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(249, 233, 203);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.third-card-dark {
+  background-color: rgb(240, 183, 76)     !important; 
+}
+
+.number {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.third img {
+  height: 80px;
+  width: 80px;
+}
+
+
+
+
+
+
+
+
+.last-section {
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.last-section h2 {
+  margin-bottom: 20px;
+}
+
+.last-container-card-section {
+  display: flex;
+  flex-direction: row;
+}
+
+ .tracking-page {
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    width: 25%;
+    border: 1px solid rgb(85, 85, 60);
+  }
+  
+  .subtitle {
+    color: #571010;
+    margin-block: 30px;
+  }
+  
+  .color-preview {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .color-preview .name {
+    display: inline-block;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 3px;
+    text-align: left;
+    padding-left: 5px;
+  }
+  
+  .color-preview>div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .text-color {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    border-radius: 7px;
+    margin-left: auto;
+  }
+
+  .apply-buttons {
+    margin-top: 30px;
+  }
+
+  .apply-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  }
+
+  .apply-button1 {
+    background-color: white;
+    color: #000;
+  }
+
+  .apply-button2 {
+    background-color: black;
+    color: white;
+  }
+
+
+
+  .apply-button:hover {
+  background-color: #E57373;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  .middle-tracking {
+    width: 45%;
+    margin-inline: 20px;
+  }
+
+  .onboarding-container {
+    border: 1px solid rgb(85, 85, 60);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+
+  .onboarding-container p {
+    margin-top: 20px;
+  }
+  
+  .onboarding-container button {
+    margin-top: 20px;
+  }
+  
+  .second-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    border: 1px solid rgb(85, 85, 60);
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .second-container p {
+    margin-block: 10px;
+  }
+
+
+  .second-container-images {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-block: 10px;
+  }
+
+  .second-container-images img {
+    height: 40px;
+    width: 40px;
+  }
+
+.custom-html-box {
+  width: 25%;
+  padding: 20px;
+  border: 1px solid rgb(85, 85, 60);
+  border-radius: 10px;
+}
+  
+.custom-html-box p {
+  margin-bottom: 30px;
+}
+
+textarea {
+  resize: none;
+}
